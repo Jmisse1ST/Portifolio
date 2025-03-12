@@ -13,7 +13,7 @@
     --second-bg-color: #131313;
     --text-color: white;
     /*--main-color: #0fe*/
-    --main-color: rgb(57, 120, 192);
+    --main-color: rgb(43, 255, 0);
     
 
 }
@@ -216,11 +216,11 @@ span{
 @keyframes words{
     0%,
     20%{
-        content: "Programador";
+        content: "Technical Analyst";
     }
     21%,
     40%{
-        content: "Desenvolvedor Web";
+        content: "Programador";
     }
     41%,
     60%{
@@ -228,11 +228,11 @@ span{
     }
     61%,
     80%{
-        content: "Desenvolvedor Mobile";
+        content: "Desenvolvedor ";
     }
     81%,
     100%{
-        content: "IT Suporte";
+        content: "";
     }
 }
 @keyframes typing{
@@ -462,6 +462,7 @@ span{
 }
 .contact{
        background-color: var(--bg-color);
+       ;
 }
 
 .contact h2{
