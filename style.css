@@ -482,12 +482,20 @@ span{
     justify-content: center;
     flex-wrap: wrap;
 }
+
+/*Cor do placeHolder penso que deve ser revisto, apliquei esse branco sem testar*/
+.contact form .input-box input::placeholder,
+.contact form textarea::placeholder {
+  color: #ffffffcc;
+  opacity: 1;
+}
 .contact form .input-box input,
 .contact form textarea{
     width: 100%;
     padding: 2.5rem;
     font-size:  1.8rem;
-    color: var(--bg-color);
+    /*color: var(--bg-color);*/
+    color: #fff; /* texto digitado branco */
     background: var(--second-bg-color);
     border-radius: 2rem;
     border: 2px solid var(--main-color);
